@@ -1,0 +1,9 @@
+{
+  "name" : "All Messages Daily Report",
+  "type" : "query",
+  "description" : "To keep a check of daily activity",
+  "query_type" : "sql",
+  "query" : "@queries/All_Messages_Daily_Report.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ ]
+}

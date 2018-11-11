@@ -1,0 +1,9 @@
+{
+  "name" : "errors",
+  "type" : "query",
+  "description" : "errors",
+  "query_type" : "sql",
+  "query" : "@queries/errors.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ ]
+}

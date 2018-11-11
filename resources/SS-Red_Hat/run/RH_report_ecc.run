@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "RH report ecc",
+  "target" : "@steps/RH_report_ecc.steps",
+  "input" : { }
+}

@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "fsecure_partner_unsub_all_records",
+  "target" : "@steps/fsecure_partner_unsub_all_records.steps",
+  "input" : { }
+}

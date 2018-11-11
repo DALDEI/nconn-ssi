@@ -1,0 +1,19 @@
+{
+  "type" : "ReportAndSync",
+  "report" : {
+    "dataSource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+    "query" : "@queries/New_RH_EMEA_Rslr_URL_report.query",
+    "params" : {
+      "campaign_id" : "143"
+    },
+    "prefix" : "report",
+    "format" : "csv",
+    "formatOptions" : { }
+  },
+  "sftp" : {
+    "auth" : "@FIXME:host:74.201.119.11",
+    "root" : "RedHat/Inbound",
+    "dest" : "redhat_emea_rslr_sent_url"
+  },
+  "type" : "ReportAndSyncSFTP"
+}

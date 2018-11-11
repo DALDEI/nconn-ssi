@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "RH Bad Record Report ecc",
+  "target" : "@steps/RH_Bad_Record_Report_ecc.steps",
+  "input" : { }
+}

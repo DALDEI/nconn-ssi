@@ -1,0 +1,20 @@
+{
+  "type" : "ReportAndSync",
+  "report" : {
+    "dataSource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+    "query" : "@queries/ECC_Unsub.query",
+    "params" : {
+      "campaign_id" : "168",
+      "client_list_id" : "74"
+    },
+    "prefix" : "report",
+    "format" : "csv",
+    "formatOptions" : { }
+  },
+  "sftp" : {
+    "auth" : "@FIXME:host:secure.servicesource.com",
+    "root" : "/NexstraECC/FSecure/Inbound",
+    "dest" : "fsecure_reseller_unsub"
+  },
+  "type" : "ReportAndSyncSFTP"
+}

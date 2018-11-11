@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "FSecure Enduser Report Connector",
+  "target" : "@steps/FSecure_Enduser_Report_Connector.steps",
+  "input" : { }
+}

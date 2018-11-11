@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "FSecure Reseller Report Connector",
+  "target" : "@steps/FSecure_Reseller_Report_Connector.steps",
+  "input" : { }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "RH SS Activity Weekly Combined",
+  "type" : "query",
+  "description" : "new RH 2016 activity report",
+  "query_type" : "sql",
+  "query" : "@queries/RH_SS_Activity_Weekly_Combined.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ ]
+}

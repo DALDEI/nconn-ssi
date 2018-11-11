@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "F5 Bad Record Report",
+  "target" : "@steps/F5_Bad_Record_Report.steps",
+  "input" : { }
+}

@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "Avaya Distrib Report Connector",
+  "target" : "@steps/Avaya_Distrib_Report_Connector.steps",
+  "input" : { }
+}

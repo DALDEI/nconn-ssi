@@ -1,0 +1,14 @@
+{
+  "name" : "ECC Activity Weekly",
+  "type" : "query",
+  "description" : "ECC Activity Weekly",
+  "query_type" : "sql",
+  "query" : "@queries/ECC_Activity_Weekly.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "campaign_id",
+    "description" : "Campaign ID",
+    "type" : "INTEGER"
+  } ]
+}

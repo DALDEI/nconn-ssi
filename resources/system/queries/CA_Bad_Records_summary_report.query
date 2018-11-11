@@ -1,0 +1,14 @@
+{
+  "name" : "CA Bad Records summary report",
+  "type" : "query",
+  "description" : "all CA bad records for a campaign",
+  "query_type" : "sql",
+  "query" : "@queries/CA_Bad_Records_summary_report.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "campaign_id",
+    "description" : "Campaign ID",
+    "type" : "INTEGER"
+  } ]
+}

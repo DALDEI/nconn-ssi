@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "distrib url",
+  "target" : "@steps/distrib_url.steps",
+  "input" : { }
+}

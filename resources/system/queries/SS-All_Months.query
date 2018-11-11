@@ -1,0 +1,9 @@
+{
+  "name" : "SS-All Months",
+  "type" : "query",
+  "description" : "SS-All Months",
+  "query_type" : "sql",
+  "query" : "@queries/SS-All_Months.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ ]
+}

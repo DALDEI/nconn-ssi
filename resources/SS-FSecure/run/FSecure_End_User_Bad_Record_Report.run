@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "FSecure End User Bad Record Report",
+  "target" : "@steps/FSecure_End_User_Bad_Record_Report.steps",
+  "input" : { }
+}

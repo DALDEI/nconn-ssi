@@ -1,0 +1,19 @@
+{
+  "name" : "CA Bad records on date",
+  "type" : "query",
+  "description" : "CA Bad records for specific date",
+  "query_type" : "sql",
+  "query" : "@queries/CA_Bad_records_on_date.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "campaign_id",
+    "description" : "Campaign ID",
+    "type" : "INTEGER"
+  }, {
+    "col" : "2",
+    "name" : "date",
+    "description" : "Date [YYYY-MM-DD] {Cal1}",
+    "type" : "DATE"
+  } ]
+}

@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "RH reseller report ecc",
+  "target" : "@steps/RH_reseller_report_ecc.steps",
+  "input" : { }
+}

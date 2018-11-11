@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "FSecure Partner Unsub",
+  "target" : "@steps/FSecure_Partner_Unsub.steps",
+  "input" : { }
+}

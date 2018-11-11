@@ -1,0 +1,14 @@
+{
+  "name" : "Partner Emails",
+  "type" : "query",
+  "description" : "Partner Emails Sent and Bounced",
+  "query_type" : "sql",
+  "query" : "@queries/Partner_Emails.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "partner_id",
+    "description" : "Partner ID",
+    "type" : "INTEGER"
+  } ]
+}

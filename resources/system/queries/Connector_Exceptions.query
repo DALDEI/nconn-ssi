@@ -1,0 +1,9 @@
+{
+  "name" : "Connector Exceptions",
+  "type" : "query",
+  "description" : "Connector Exceptions",
+  "query_type" : "sql",
+  "query" : "@queries/Connector_Exceptions.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ ]
+}

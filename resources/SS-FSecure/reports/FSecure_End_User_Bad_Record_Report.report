@@ -1,0 +1,11 @@
+{
+  "dataSource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "query" : "@queries/ECC_Bad_Records.query",
+  "params" : {
+    "campaign_id" : "170",
+    "client_list_id" : "72"
+  },
+  "prefix" : "report",
+  "format" : "csv",
+  "formatOptions" : { }
+}

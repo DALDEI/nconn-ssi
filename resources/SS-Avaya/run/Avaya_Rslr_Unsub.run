@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "Avaya Rslr Unsub",
+  "target" : "@steps/Avaya_Rslr_Unsub.steps",
+  "input" : { }
+}

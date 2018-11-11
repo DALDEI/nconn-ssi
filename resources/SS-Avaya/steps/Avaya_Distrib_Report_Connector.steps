@@ -1,0 +1,19 @@
+{
+  "type" : "ReportAndSync",
+  "report" : {
+    "dataSource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+    "query" : "@queries/ECC_Activity_Weekly.query",
+    "params" : {
+      "campaign_id" : "166"
+    },
+    "prefix" : "report",
+    "format" : "csv",
+    "formatOptions" : { }
+  },
+  "sftp" : {
+    "auth" : "@FIXME:host:secure.servicesource.com",
+    "root" : "/NexstraECC/Avaya/Inbound",
+    "dest" : "Avaya_distrib_activity_log"
+  },
+  "type" : "ReportAndSyncSFTP"
+}

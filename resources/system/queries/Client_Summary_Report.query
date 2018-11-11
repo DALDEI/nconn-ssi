@@ -1,0 +1,14 @@
+{
+  "name" : "Client Summary Report",
+  "type" : "query",
+  "description" : "Activity Events total by client",
+  "query_type" : "sql",
+  "query" : "@queries/Client_Summary_Report.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "client_id",
+    "description" : "Client ID",
+    "type" : "INTEGER"
+  } ]
+}

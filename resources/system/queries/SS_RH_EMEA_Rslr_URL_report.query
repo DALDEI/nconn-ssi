@@ -1,0 +1,14 @@
+{
+  "name" : "SS RH EMEA Rslr URL report",
+  "type" : "query",
+  "description" : "SS RH EMEA Rslr URL report",
+  "query_type" : "sql",
+  "query" : "@queries/SS_RH_EMEA_Rslr_URL_report.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "campaign_id",
+    "description" : "Campaign ID",
+    "type" : "INTEGER"
+  } ]
+}

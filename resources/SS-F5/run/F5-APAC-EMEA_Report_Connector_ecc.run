@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "F5-APAC-EMEA Report Connector ecc",
+  "target" : "@steps/F5-APAC-EMEA_Report_Connector_ecc.steps",
+  "input" : { }
+}

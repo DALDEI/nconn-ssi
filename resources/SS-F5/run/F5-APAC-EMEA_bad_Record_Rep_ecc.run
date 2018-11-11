@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "F5-APAC-EMEA bad Record Rep ecc",
+  "target" : "@steps/F5-APAC-EMEA_bad_Record_Rep_ecc.steps",
+  "input" : { }
+}

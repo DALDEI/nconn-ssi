@@ -1,0 +1,10 @@
+{
+  "dataSource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "query" : "@queries/SS_Activity_Weekly.query",
+  "params" : {
+    "campaign_id" : "143"
+  },
+  "prefix" : "report",
+  "format" : "csv",
+  "formatOptions" : { }
+}

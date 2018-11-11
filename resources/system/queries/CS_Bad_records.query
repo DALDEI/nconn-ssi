@@ -1,0 +1,14 @@
+{
+  "name" : "CS Bad records",
+  "type" : "query",
+  "description" : "records that failed validation",
+  "query_type" : "sql",
+  "query" : "@queries/CS_Bad_records.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "campaign_id",
+    "description" : "Campaign ID",
+    "type" : "INTEGER"
+  } ]
+}

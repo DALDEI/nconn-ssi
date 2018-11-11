@@ -1,0 +1,9 @@
+{
+  "name" : "S Source Monthly Report",
+  "type" : "query",
+  "description" : "Monthly activity report",
+  "query_type" : "sql",
+  "query" : "@queries/S_Source_Monthly_Report.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ ]
+}

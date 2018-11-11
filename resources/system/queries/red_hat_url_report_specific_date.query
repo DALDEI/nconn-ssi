@@ -1,0 +1,19 @@
+{
+  "name" : "red hat url report specific date",
+  "type" : "query",
+  "description" : "red hat url report specific date",
+  "query_type" : "sql",
+  "query" : "@queries/red_hat_url_report_specific_date.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "campaign_id",
+    "description" : "Campaign ID",
+    "type" : "INTEGER"
+  }, {
+    "col" : "2",
+    "name" : "the_date",
+    "description" : "Date",
+    "type" : "DATE"
+  } ]
+}

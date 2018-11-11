@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "Zebra Dsitrib Report Connector",
+  "target" : "@steps/Zebra_Dsitrib_Report_Connector.steps",
+  "input" : { }
+}

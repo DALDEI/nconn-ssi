@@ -1,0 +1,9 @@
+{
+  "name" : "ServiceSource Monthly Report - current month",
+  "type" : "query",
+  "description" : "Modified report -- outputs only the current month",
+  "query_type" : "sql",
+  "query" : "@queries/ServiceSource_Monthly_Report_-_current_month.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ ]
+}

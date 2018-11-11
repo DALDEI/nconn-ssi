@@ -1,0 +1,14 @@
+{
+  "name" : "SS Activity Weekly",
+  "type" : "query",
+  "description" : "SS Activity for the prior week",
+  "query_type" : "sql",
+  "query" : "@queries/SS_Activity_Weekly.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "campaign_id",
+    "description" : "Campaign ID",
+    "type" : "INTEGER"
+  } ]
+}

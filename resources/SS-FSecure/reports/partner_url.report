@@ -1,0 +1,10 @@
+{
+  "dataSource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "query" : "@queries/ecc_url.query",
+  "params" : {
+    "campaign_id" : "169"
+  },
+  "prefix" : "report",
+  "format" : "csv",
+  "formatOptions" : { }
+}

@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "Zebra Distrib Bad Record Report",
+  "target" : "@steps/Zebra_Distrib_Bad_Record_Report.steps",
+  "input" : { }
+}

@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "FSecure Reseller Bad Record Report",
+  "target" : "@steps/FSecure_Reseller_Bad_Record_Report.steps",
+  "input" : { }
+}

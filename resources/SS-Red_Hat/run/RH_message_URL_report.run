@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "RH message URL report",
+  "target" : "@steps/RH_message_URL_report.steps",
+  "input" : { }
+}

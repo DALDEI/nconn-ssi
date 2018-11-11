@@ -1,0 +1,9 @@
+{
+  "name" : "offline_campaigns",
+  "type" : "query",
+  "description" : "offline_campaigns",
+  "query_type" : "sql",
+  "query" : "@queries/offline_campaigns.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ ]
+}

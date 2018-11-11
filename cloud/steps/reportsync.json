@@ -1,0 +1,15 @@
+{
+  "type" : "ReportAndSync",
+  "runReport" : "arn:aws:lambda:us-west-2:114709661826:function:ReportAPI:run",
+  "sourceRef" : "@s3://nexstra-com-dev-config-us-west-2/system/datasource/cdsdev.ds",
+  "query" : "SELECT * from reports",
+  "dest" : "s3://nexstra-com-test-us-west-2/testreport/",
+  "format" : "xlsx",
+  "options" : {
+    "delimiter" : ",",
+    "alwaysQuoted" : true
+  },
+  "auth" : "@secrets://us-west-2/dev/cds/mocksftp",
+  "root" : "NexstraECC/RedHat/Outbound",
+  "putSFTP" : "arn:aws:lambda:us-west-2:114709661826:function:SFTPApi:put"
+}

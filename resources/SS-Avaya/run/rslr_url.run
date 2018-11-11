@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "rslr url",
+  "target" : "@steps/rslr_url.steps",
+  "input" : { }
+}

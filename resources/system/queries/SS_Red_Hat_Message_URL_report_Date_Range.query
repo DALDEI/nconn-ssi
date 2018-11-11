@@ -1,0 +1,24 @@
+{
+  "name" : "SS Red Hat Message URL report Date Range",
+  "type" : "query",
+  "description" : "SS Red Hat Message URL report",
+  "query_type" : "sql",
+  "query" : "@queries/SS_Red_Hat_Message_URL_report_Date_Range.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "campaign_id",
+    "description" : "campaign id",
+    "type" : "INTEGER"
+  }, {
+    "col" : "2",
+    "name" : "start_date",
+    "description" : "Start Date [YYYY-MM-DD] {Cal1}",
+    "type" : "DATE"
+  }, {
+    "col" : "3",
+    "name" : "end_date",
+    "description" : "End Date [YYYY-MM-DD] {Cal1}",
+    "type" : "DATE"
+  } ]
+}

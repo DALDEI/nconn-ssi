@@ -1,0 +1,14 @@
+{
+  "name" : "SS Red Hat Message URL report",
+  "type" : "query",
+  "description" : "SS Red Hat Message URL report",
+  "query_type" : "sql",
+  "query" : "@queries/SS_Red_Hat_Message_URL_report.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "campaign_id",
+    "description" : "Campaign ID",
+    "type" : "INTEGER"
+  } ]
+}

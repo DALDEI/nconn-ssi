@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "Avaya Distrib Unsub",
+  "target" : "@steps/Avaya_Distrib_Unsub.steps",
+  "input" : { }
+}

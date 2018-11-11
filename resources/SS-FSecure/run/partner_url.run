@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "partner url",
+  "target" : "@steps/partner_url.steps",
+  "input" : { }
+}

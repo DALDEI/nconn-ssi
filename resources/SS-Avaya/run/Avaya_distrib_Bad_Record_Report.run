@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "Avaya distrib Bad Record Report",
+  "target" : "@steps/Avaya_distrib_Bad_Record_Report.steps",
+  "input" : { }
+}

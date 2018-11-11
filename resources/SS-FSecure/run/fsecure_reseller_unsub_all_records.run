@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "fsecure_reseller_unsub_all_records",
+  "target" : "@steps/fsecure_reseller_unsub_all_records.steps",
+  "input" : { }
+}

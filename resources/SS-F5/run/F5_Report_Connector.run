@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "F5 Report Connector",
+  "target" : "@steps/F5_Report_Connector.steps",
+  "input" : { }
+}

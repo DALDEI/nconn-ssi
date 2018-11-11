@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "fsecure_enduser_unsub_all_records",
+  "target" : "@steps/fsecure_enduser_unsub_all_records.steps",
+  "input" : { }
+}

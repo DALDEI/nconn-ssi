@@ -1,0 +1,14 @@
+{
+  "name" : "Connector XML Import Errors",
+  "type" : "query",
+  "description" : "connector logs for which xml filtering reported an error",
+  "query_type" : "sql",
+  "query" : "@queries/Connector_XML_Import_Errors.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "client_id",
+    "description" : "Client ID",
+    "type" : "INTEGER"
+  } ]
+}

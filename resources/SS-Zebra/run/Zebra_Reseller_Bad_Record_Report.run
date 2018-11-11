@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "Zebra Reseller Bad Record Report",
+  "target" : "@steps/Zebra_Reseller_Bad_Record_Report.steps",
+  "input" : { }
+}

@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "FSecure Reseller Unsub",
+  "target" : "@steps/FSecure_Reseller_Unsub.steps",
+  "input" : { }
+}

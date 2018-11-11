@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "FSecure End User Unsub",
+  "target" : "@steps/FSecure_End_User_Unsub.steps",
+  "input" : { }
+}

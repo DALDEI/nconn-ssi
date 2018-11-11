@@ -1,0 +1,6 @@
+{
+  "type" : "stepfunctions",
+  "name" : "reseller url",
+  "target" : "@steps/reseller_url.steps",
+  "input" : { }
+}

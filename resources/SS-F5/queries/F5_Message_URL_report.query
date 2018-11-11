@@ -1,0 +1,14 @@
+{
+  "name" : "F5 Message URL report",
+  "type" : "query",
+  "description" : "F5 Message URL report",
+  "query_type" : "sql",
+  "query" : "@queries/F5_Message_URL_report.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "campaign_id",
+    "description" : "campaign_id",
+    "type" : "INTEGER"
+  } ]
+}

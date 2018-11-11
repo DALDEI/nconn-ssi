@@ -1,0 +1,13 @@
+{
+    "type" : "Report",
+    "query" : "SELECT 1",
+    "runReport" : "arn:aws:lambda:${aws:region}:${aws:account}:function:ReportAPI:run",
+    "sourceRef" : "@s3://nexstra-com-dev-config-${aws:region}/system/datasource/cds-dev.ds",
+    "dest" : "s3://nexstra-com-test-${aws:region}/testreport2/",
+    "format" : "csv",
+    "options" : {
+      "delimiter" : ",",
+      "alwaysQuoted" : true
+    }
+
+}

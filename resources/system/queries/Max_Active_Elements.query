@@ -1,0 +1,36 @@
+{
+  "name" : "Max Active Elements",
+  "type" : "query",
+  "description" : "report max Active Elements for one month",
+  "query_type" : "sql",
+  "query" : "@queries/Max_Active_Elements.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "Partner",
+    "description" : "Partner",
+    "type" : "STRING"
+  }, {
+    "col" : "2",
+    "name" : "Client",
+    "description" : "Client",
+    "type" : "STRING"
+  }, {
+    "col" : "3",
+    "name" : "Campaign_name",
+    "description" : "Campaign",
+    "type" : "STRING"
+  }, {
+    "col" : "4",
+    "name" : "Month",
+    "description" : "Month",
+    "type" : "INTEGER",
+    "def_value" : "1"
+  }, {
+    "col" : "5",
+    "name" : "Year",
+    "description" : "Year",
+    "type" : "INTEGER",
+    "def_value" : "2008"
+  } ]
+}

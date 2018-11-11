@@ -1,0 +1,21 @@
+{
+  "name" : "Service Source max elements",
+  "type" : "query",
+  "description" : "max actives for all client",
+  "query_type" : "sql",
+  "query" : "@queries/Service_Source_max_elements.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "Month",
+    "description" : "Month (numeric)",
+    "type" : "INTEGER",
+    "def_value" : "1"
+  }, {
+    "col" : "2",
+    "name" : "Year",
+    "description" : "Year",
+    "type" : "INTEGER",
+    "def_value" : "2010"
+  } ]
+}

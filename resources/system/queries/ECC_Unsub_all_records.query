@@ -1,0 +1,19 @@
+{
+  "name" : "ECC Unsub all records",
+  "type" : "query",
+  "description" : "ECC Unsub no time filter",
+  "query_type" : "sql",
+  "query" : "@queries/ECC_Unsub_all_records.sql",
+  "datasource" : "@file:/nexstra/nconn-legacy/system/datasources/cds-prod-ssi.ds",
+  "parameters" : [ {
+    "col" : "1",
+    "name" : "client_list_id",
+    "description" : "client_list_id",
+    "type" : "INTEGER"
+  }, {
+    "col" : "2",
+    "name" : "campaign_id",
+    "description" : "campaign_id",
+    "type" : "INTEGER"
+  } ]
+}
